@@ -4,13 +4,6 @@ A predictive maintenance dashboard that estimates vehicle failure risk from live
 sensor readings, explains *why* it made that prediction, and recommends what to
 inspect — built on a real trained ML model, not a static form.
 
-## Why this rebuild
-
-The original version was a UI shell with no model behind it. This version adds:
-- A genuine trained classifier (XGBoost) + anomaly detector (Isolation Forest)
-- Explainability: every prediction shows which sensors are driving the risk score
-- A frontend rebuilt from scratch on the same design system as the rest of the portfolio
-
 ## Architecture
 
 ```
